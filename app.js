@@ -66,6 +66,9 @@ alert (book);
 var html = "yah, i can write HTML content through javascript";
 
 document.write (html);
+document.write("</br>");
+document.write("</br>");
+
 
 // 9/ Store following string in a variable and show in alert and
 // browser through JS
@@ -74,6 +77,12 @@ document.write (html);
 
 var border = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬ ";
 alert (border);
+
+document.write("</br>");
+document.write("</br>");
+document.write("</br>");
+
+
 
 
 

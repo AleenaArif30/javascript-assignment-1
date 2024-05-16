@@ -9,6 +9,8 @@ var sum = (firstnum + secondnum);
 
 document.write(" sum of 3 & 7 is ", sum);
 document.write("</br>");
+document.write("</br>");
+
 
 
 // 2/ Repeat task1 for subtraction, multiplication, division &
@@ -20,6 +22,8 @@ var sub = (firstnum - secondnum);
 
 document.write(" sub of 3 & 7 is ", sub);
 document.write("</br>");
+document.write("</br>");
+
 
 var firstnum = 3;
 var secondnum = 7;
@@ -27,6 +31,8 @@ var product = (firstnum * secondnum);
 
 document.write(" product of 3 & 7 is ", product);
 document.write("</br>");
+document.write("</br>");
+
 
 var firstnum = 3;
 var secondnum = 7;
@@ -34,6 +40,8 @@ var divide = (firstnum / secondnum);
 
 document.write(" division of 3 & 7 is ", divide);
 document.write("</br>");
+document.write("</br>");
+
 
 
 var firstnum = 3;
@@ -42,6 +50,8 @@ var modulus = (firstnum % secondnum);
 
 document.write(" modulus of 3 & 7 is ", modulus);
 document.write("</br>");
+document.write("</br>");
+
 
 
 // 3/ Do the following using JS Mathematic Expressions
@@ -50,27 +60,44 @@ var value;
 value = " value after variable declaration is undefine ";
 document.write(value);
 document.write("</br>");
-
-var initialvalue = 6;
-document.write("initial value ; ", initialvalue);
 document.write("</br>");
 
-// increment
+
+var a = 5;
+document.write (" initial value is  " ,  a ) ;
+document.write("</br>");
+var increment =  a++ ;
+var increment = a++ ;
+// document.write ( increment) ;
+document.write  (  " value after increment is  "  , increment) ; 
+document.write("</br>");
+document.write("</br>");
+
+
 
 var newvalue = 7;
-var add = initialvalue + newvalue;
+var add = increment + newvalue;
 document.write(" value after addition is ; ", add);
 document.write("</br>");
+document.write("</br>");
 
-//  decrement
-var decrement = 12;
 
+
+var decrement = add-- ; 
+var decrement = add-- ;
+document.write ( decrement  ) ;
+
+document.write (  " value after decrement is  "  , decrement ) ;
+
+document.write("</br>");document.write("</br>");
 
 var modulus = 3;
 modulus = decrement % modulus;
 
 document.write(" output : the reminder is : ", modulus);
 document.write("</br>");
+document.write("</br>");
+
 
 
 // 4/ Cost of one movie ticket is 600 PKR. Write a script to
@@ -154,7 +181,8 @@ document.write(" 9 x 9 = ", multiply9);
 document.write("</br>");
 
 document.write(" 9 x 10 = ", multiply10);
-document.write("</br>");document.write("</br>");
+document.write("</br>");document.write("</br>");document.write("</br>");
+
 
 
 // 6/ The Temperature Converter: It’s hot out! Let’s make a
@@ -180,8 +208,7 @@ var Celsiusconvert = ( Celsius  * 5/9 ) + 32  ;
 
 
 //   7/ Write a program to implement checkout process of a
-// shopping cart system for an e-commerce website. Store
-// the following in variables
+// shopping cart system for an e-commerce website. Stor// the following in variables
  
 
 var item1 = 650 ;
@@ -301,7 +328,8 @@ document.write ( " you will need " , totalsnackeatforrestofyourlife  + " cholola
 
 document.write("</br>");
 document.write("</br>");
-  
+document.write("</br>");
+
 
                     //  END ;
 

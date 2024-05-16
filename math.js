@@ -14,22 +14,28 @@ document.write("</br>"); document.write("</br>");
 // required arithmetic to display the following result in your
 // browser:
 
+var x = 10 ;
+document.write ( " the value of a is  "  , x) 
+document.write("</br>");
+var increment = ++x ;
+document.write ( " the value of ++a is " , increment ) ;
+document.write("</br>");
+document.write ( " now the value of ++a is " , increment) ;
+document.write("</br>");
+var increment2 = x++ ;
+var increment2 = x++ ;
+document.write ( " the value of a++ is " , increment2 ) ;document.write("</br>");
+document.write ( " now the value of a++ is " , increment2 ) ; document.write("</br>");
+var decrement = --x ; document.write("</br>");
+ var decrement = --x ;
+document.write ( " the value of --a is " , decrement ) ;document.write("</br>");
+document.write ( " now the value of a is " , decrement ) ;
+document.write("</br>"); 
+var decrement2 = x-- ; document.write("</br>");
+var decrement2 = x-- ;
+document.write ( " the value of a-- is " , decrement2 ) ;document.write("</br>");
+document.write ( " now the value of a-- is " , decrement2 ) ;
 
-var initialvalue = 10;
-var preincrement = ++initialvalue;
-var postincrement = preincrement++
-var predecriment = --postincrement;
-var postdecriment = predecriment--;
-
-document.write(" the value of a =  ", initialvalue); document.write("</br>");
-document.write(" the value of ++a is ", preincrement); document.write("</br>");
-document.write("now the  value of a is ", preincrement); document.write("</br>");
-document.write("the value of a++ is  ", postincrement); document.write("</br>");
-document.write(" now the value of a is ", postincrement); document.write("</br>");
-document.write(" the value of --a is ", predecriment); document.write("</br>");
-document.write("now the value of a is ", predecriment); document.write("</br>");
-document.write("  the value of  a-- is ", postdecriment); document.write("</br>");
-document.write(" now the value of a is  ", postdecriment); document.write("</br>"); document.write("</br>");
 
 
 // 2/ What will be the output in variables a, b & result after
@@ -52,33 +58,13 @@ document.write(" now the value of a is  ", postdecriment); document.write("</br>
 
 
 
-var num = 5;
-var tableone = 5 * 1;
-var tabletwo = 5 * 2;
-var tablethree = 5 * 3;
-var tablefour = 5 * 4;
-var tablefive = 5 * 5;
-var tablesix = 5 * 6;
-var tableseven = 5 * 7;
-var tableeight = 5 * 8;
-var tablenine = 5 * 9;
-var tableten = 5 * 10;
-
-document.write(5 + " * 1  = ", tableone); document.write("</br>");
-document.write(5 + " * 2 = ", tabletwo); document.write("</br>");
-document.write(5 + " * 3 = ", tablethree); document.write("</br>");
-document.write(5 + " * 4 = ", tablefour); document.write("</br>");
-document.write(5 + " * 5 = ", tablefive); document.write("</br>");
-document.write(5 + " * 6 = ", tablesix); document.write("</br>");
-document.write(5 + " * 7 = ", tableseven); document.write("</br>");
-document.write(5 + " * 8 = ", tableeight); document.write("</br>");
-document.write(5 + " * 9 = ", tablenine); document.write("</br>");
-document.write(5 + " * 10 = ", tableten); document.write("</br>");
 
 
 
 
-document.write("</br>"); document.write("</br>"); document.write("</br>");
+
+document.write("</br>"); document.write("</br>"); document.write("</br>");document.write("</br>");
+
 
 
 var num = +prompt(" enter a number for table  .");
@@ -104,7 +90,8 @@ document.write(num + " * 9 = ", tablenine); document.write("</br>");
 document.write(num + " * 10 = ", tableten); document.write("</br>");
 
 
-document.write("</br>"); document.write("</br>");
+document.write("</br>"); document.write("</br>");document.write("</br>");
+
 
 //  6./Take
 // a) Take three subjects name from user and store them in 3
@@ -185,7 +172,9 @@ document.write(
 
     " </table>"
 )
-document.write("</br>"); document.write("</br>"); document.write("</br>");
+document.write("</br>"); document.write("</br>"); document.write("</br>");document.write("</br>");
+document.write("</br>");
+
 
 
 

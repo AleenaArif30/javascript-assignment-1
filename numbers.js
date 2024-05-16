@@ -25,10 +25,14 @@ alert (" you have visited my page " +  visit + " times ");
 
 
 document.write ("</br>");
+document.write("</br>");
+
 var birthyear = 2005;
  document.write ( "my birth year is " + birthyear);
 
  document.write ("</br>");
+ document.write("</br>");
+
 
 
 //  4/ A visitor visits an online clothing store
@@ -52,6 +56,10 @@ var birthyear = 2005;
 
   
  document.write ("</br>") ;
+ document.write("</br>");
+ document.write("</br>");
+
+
 
 
 

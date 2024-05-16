@@ -31,6 +31,8 @@ var age$;
 
 
  document.write ("</br>") ;
+ document.write("</br>");
+
 
 
 var rules = " a) A heading stating “Rules for naming JS variables” ";
@@ -42,19 +44,29 @@ var varname = " e) Variable names should not be JS variable ";
 
 document.write(rules);
 document.write("</br>");
+document.write("</br>");
+
 
 document.write(variablename);
 document.write("</br>");
+document.write("</br>");
+
 
 document.write(varbegin);
 document.write("</br>");
+document.write("</br>");
+
 
 document.write(casevar);
 document.write("</br>");
+document.write("</br>");
+
 
 document.write(varname);
 document.write("</br>");
 document.write("</br>");
+document.write("</br>");
+
 
 
  
